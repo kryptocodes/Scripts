@@ -3,4 +3,4 @@ export ARCH=arm64 && export SUBARCH=arm64
 export USE_CCACHE=1
 make <device_config>
 make menuconfig
-make -j# #-no of cores
+make -j# zImage #-no of cores
