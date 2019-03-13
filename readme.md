@@ -5,6 +5,8 @@ ubuntu_scripts.sh : sets up an Ubuntu 18.04+ server or PC for android ROM and Ke
 
 clone_X00TD_repos.sh : clones device sources for X00TD
 
+clone_lettuce_repos.sh : clones device sources for lettuce
+
 NOTE: Don't forget to chmod a+x the script before running it :-) 
 
 HAPPY COMPILING !!
