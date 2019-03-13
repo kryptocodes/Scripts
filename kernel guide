@@ -1,4 +1,4 @@
-export CROSS_COMPILE=/home/kryptocodes/lettuce/kernel/toolchain/aarch64-linux-android-4.9/bin/aarch64-linux-android-
+export CROSS_COMPILE=#-gcc dir
 export ARCH=arm64 && export SUBARCH=arm64
 export USE_CCACHE=1
 make <device_config>
