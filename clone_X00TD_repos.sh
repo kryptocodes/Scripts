@@ -9,6 +9,7 @@ ORGANIZATION='https://github.com/X00TD'
 if [ -z "$BRANCH"]; then BRANCH="lineage-16.0"; fi
 if [ -z "$DEVICE_BRANCH"]; then DEVICE_BRANCH="lineage-16.0"; fi
 
+#repo to init device tree,vendor and kernel
 echo -e "\n============== CLONING DEVICE TREE ==============\n"
 git clone -b $DEVICE_BRANCH "$ORGANIZATION"'/android_device_asus_X00TD' device/asus/X00TD
 
