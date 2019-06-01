@@ -1,10 +1,8 @@
 #!/bin/bash
 #
-# Script to set up an Ubuntu 18.04+ server or PC
-# (with minimum 8GB RAM, 4 cores CPU) for android ROM and Kernel compiling
+# Script to set up an Ubuntu 18.04+
+# for android ROM and Kernel compiling
 #
-# Usage:
-#	./ubuntu_setup.sh
 #
 
 # Go to home dir
@@ -68,9 +66,9 @@ source ~/.profile
 source ~/.bashrc
 echo "Done"
 
-###
-### IMPORTANT: REPLACE WITH YOUR PERSONAL DETAILS
-###
+#
+# IMPORTANT: REPLACE WITH YOUR PERSONAL DETAILS
+#
 # Configure git
 echo -e "\n================== CONFIGURING GIT ==================\n"
 git config --global user.email "srivatsantb@gmail.com"
