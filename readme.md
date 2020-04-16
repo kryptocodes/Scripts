@@ -7,6 +7,8 @@ feel free to fork,if you'd like to improve something or fix issues do it
 - clone_X00TD_repos.sh : clones device sources for X00TD
 
 - clone_lettuce_repos.sh : clones device sources for lettuce
+
+- twrp.sh: helps to flash twrp recovery
 -------------------------------------------------------------------------------------------
 NOTE: Don't forget to chmod a+x the script before running it :-) 
 
